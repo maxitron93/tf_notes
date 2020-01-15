@@ -25,9 +25,4 @@ With the low level APIs you will be working with Tensors, Constant, Placeholders
 
 <strong>FAQ</strong>: “When do I need to write low level TensorFlow code?” You only need to work at this low level if you are a student studying deep learning or researcher that needs greater control for your experiments; otherwise stick with the high level APIs.
 
-# Eager vs Graph execution
-Eager execution is an imperative programming environment that evaluates operations immediately, without building graphs. i.e. Operations return concrete values instead of constructing a computational graph to run later.
 
-Eager execution makes TensorFlow much more intuitive and pythonic. However, eager execution can be slower than executing the equivalent graph as it can’t benefit from whole-program optimizations on the graph, and also incurs overheads of interpreting Python code.
-
-<strong>Protip</strong>: Use Eager execution for research, and for production you should still use Graph execution. Note: <strong>AutoGraph</strong> lets you write graph code using natural Python syntax. More info: https://www.tensorflow.org/versions/r2.0/api_docs/python/tf/autograph
