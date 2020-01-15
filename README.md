@@ -1,3 +1,5 @@
+Link to TensorFlow 2.0 documentation: https://www.tensorflow.org/versions/r2.0/api_docs/python/
+
 Off the top of my head, things I want to know:
 ### Model Building:
 - What layers are available

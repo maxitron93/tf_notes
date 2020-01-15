@@ -30,4 +30,4 @@ Eager execution is an imperative programming environment that evaluates operatio
 
 Eager execution makes TensorFlow much more intuitive and pythonic. However, eager execution can be slower than executing the equivalent graph as it can’t benefit from whole-program optimizations on the graph, and also incurs overheads of interpreting Python code.
 
-<strong>Protip</strong>: Use Eager execution for research, and for production you should still use Graph execution. Note: <strong>AutoGraph</strong> lets you write graph code using natural Python syntax. More info: https://www.tensorflow.org/guide/function
+<strong>Protip</strong>: Use Eager execution for research, and for production you should still use Graph execution. Note: <strong>AutoGraph</strong> lets you write graph code using natural Python syntax. More info: https://www.tensorflow.org/versions/r2.0/api_docs/python/tf/autograph
